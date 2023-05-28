@@ -12,8 +12,6 @@ namespace SaveManager
         public override string ModVersion => "v1.0.0";
         public override string Description => "Import and export save files from right inside the game.";
 
-        // This initializes the patcher. This is required if you use any Harmony patches.
-
         public override void Load()
         {
         }
